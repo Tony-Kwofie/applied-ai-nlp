@@ -1,91 +1,81 @@
 # Explainable NLP for Injury Severity Prediction  
-**Applied Artificial Intelligence | MSc Artificial Intelligence & Data Science**  
-**University of Hull (London Campus)**
+**MSc Artificial Intelligence & Data Science | University of Hull (London Campus)**
+
+## 1. Research Motivation
+Occupational injuries remain a major challenge in safety-critical industries such as construction, mining, and manufacturing. While large volumes of incident reports are routinely collected, much of this data is unstructured and under-utilised.
+
+This project investigates how **Natural Language Processing (NLP)** and **Explainable Artificial Intelligence (XAI)** can be used to transform free-text injury narratives into **transparent, interpretable, and actionable safety intelligence**. The work is motivated by the need for **trustworthy AI systems** in high-risk environments where model decisions must be understood by safety professionals.
 
 ---
 
-## 1. Project Overview
-This project investigates the use of **Natural Language Processing (NLP)** and **Explainable Artificial Intelligence (XAI)** to predict **injury severity** from free-text occupational accident narratives. The work is situated within **safety-critical industrial contexts**, where transparency, interpretability, and trust are essential for real-world AI adoption.
-
-Rather than focusing solely on predictive accuracy, this study emphasises **human-centred and interpretable AI**, enabling safety professionals to understand *why* a model predicts severe outcomes and which linguistic patterns contribute most to risk.
-
----
-
-## 2. Research Motivation
-Occupational Health & Safety (OHS) systems generate large volumes of unstructured incident reports, yet much of this data remains under-analysed. Black-box AI models are often unsuitable in such domains due to regulatory, ethical, and operational constraints.
-
-This project addresses the research gap by:
-- Applying NLP to real-world injury narratives  
-- Balancing predictive performance with explainability  
-- Demonstrating how XAI can support decision-making in safety-critical environments  
+## 2. Research Objectives
+- Develop NLP models to predict injury severity from occupational incident narratives  
+- Compare classical machine learning approaches with deep learning sequence models  
+- Address real-world data challenges including noise, imbalance, and missing values  
+- Integrate **explainability techniques** to support transparent decision-making  
+- Explore the role of XAI in safety-critical AI systems  
 
 ---
 
-## 3. Research Objectives
-- Predict injury severity using NLP-based machine learning models  
-- Compare interpretable classical models with deep learning approaches  
-- Address real-world challenges such as noisy text and class imbalance  
-- Extract meaningful linguistic patterns linked to severe injuries  
-- Explore the role of explainability in trustworthy safety analytics  
+## 3. Methodology
 
----
-
-## 4. Methodology
-
-### 4.1 Data and Preprocessing
+### 3.1 Data and Preprocessing
 - Real-world occupational injury narratives (OSHA-style reports)
-- Text cleaning, normalisation, and tokenisation
+- Text cleaning, normalization, and tokenization
 - Narrative length analysis and exploratory text statistics
 - Handling class imbalance using SMOTE
 
-### 4.2 Machine Learning Models
-- TF-IDF feature extraction
+### 3.2 Machine Learning Models
+- TF-IDF feature representations
 - Logistic Regression with resampling
-- Evaluation metrics:
-  - Precision–Recall
+- Performance evaluated using:
+  - Precision–Recall curves
   - ROC–AUC
-  - F1-score
-  - Confusion Matrix
+  - F1-Score
+  - Confusion Matrices
 
-### 4.3 Deep Learning Models
+### 3.3 Deep Learning Models
 - Bidirectional Long Short-Term Memory (BiLSTM)
-- Sequential modelling of injury narratives
-- Analysis of training dynamics and generalisation behaviour
+- Sequence modelling for contextual understanding
+- Analysis of training dynamics and convergence behaviour
 
 ---
 
-## 5. Explainable AI (XAI) Focus
-Explainability is a central contribution of this project. The study incorporates multiple interpretability-oriented analyses, including:
+## 4. Explainable AI (XAI) Perspective
+A core contribution of this work is the focus on **interpretability in NLP-based safety models**. Rather than treating injury severity prediction as a black-box problem, the project emphasises:
 
-- Identification of high-impact words and phrases associated with severe injuries  
+- Identification of influential words and phrases associated with severe injuries  
 - Class-specific keyword analysis and word clouds  
 - Feature importance interpretation for linear models  
-- Comparative analysis between interpretable ML models and deep neural networks  
+- Comparison between interpretable classical models and deep neural networks  
 
-This approach supports **trustworthy AI**, allowing domain experts to validate, question, and learn from model outputs.
-
----
-
-## 6. Results and Analysis
-The repository includes extensive quantitative and visual evaluation:
-
-- Confusion matrices and classification reports  
-- Precision–Recall and ROC curves  
-- F1-score comparisons across models  
-- Narrative length distribution analysis  
-- Word clouds for hospitalized vs non-hospitalized cases  
-- BiLSTM training and validation curves  
-
-The results highlight the **trade-off between performance and interpretability** in safety-critical NLP systems.
+This approach supports **human-centred AI**, enabling safety managers and regulators to:
+- Understand *why* a prediction was made  
+- Identify risk-driving linguistic patterns  
+- Trust AI-assisted safety decisions  
 
 ---
 
-## 7. Repository Structure
+## 5. Experimental Results
+The repository includes extensive visual and quantitative evaluation:
+
+- Confusion matrices and classification reports
+- Precision–Recall and ROC curves
+- F1-score comparisons across models
+- Narrative length distributions
+- Word clouds for hospitalized vs non-hospitalized cases
+- BiLSTM training and validation curves
+
+These results demonstrate the trade-off between predictive performance and interpretability in safety-critical NLP systems.
+
+---
+
+## 6. Repository Structure
 ```text
 APPLIED-AI-NLP/
 │
 ├── DATASET/
-│   ├── RAW/                  # Original injury narratives
+│   ├── RAW/                  # Original incident narratives
 │   ├── PROCESSED/            # Cleaned and engineered datasets
 │
 ├── Injury_Severity_Prediction.ipynb
@@ -95,7 +85,7 @@ APPLIED-AI-NLP/
 ├── nlp report.docx
 ├── .gitignore
 └── README.md
-8. Tools and Technologies
+7. Tools and Technologies
 Python
 
 scikit-learn
@@ -110,10 +100,10 @@ Matplotlib, Seaborn
 
 Jupyter Notebook
 
-9. Academic Contribution
-This project contributes to research on:
+8. Academic Contribution
+This project contributes to ongoing research on:
 
-NLP for safety and risk analytics
+NLP for safety analytics
 
 Explainable AI in high-risk domains
 
@@ -121,12 +111,12 @@ Trustworthy and transparent machine learning
 
 Human-in-the-loop decision support systems
 
-The work aligns with current research themes in Explainable AI, applied NLP, and safety-critical machine learning.
+The work aligns with research themes in XAI, applied machine learning, and AI for societal and industrial impact.
 
-10. PhD Research Extension
+9. PhD Research Extension
 Potential PhD-level extensions include:
 
-Post-hoc explainability methods (SHAP, LIME) for NLP models
+Post-hoc explainability methods (LIME, SHAP) for NLP models
 
 Transformer-based architectures (BERT, RoBERTa) with explanation layers
 
@@ -134,26 +124,15 @@ Temporal modelling of injury narratives and severity trends
 
 Multi-modal learning combining text with structured safety data
 
-Deployment of explainable NLP systems in real industrial settings
+Deployment of explainable NLP models in real industrial settings
 
-11. Author
+10. Author
 Anthony Eddei Kwofie
 MSc Artificial Intelligence & Data Science
-Explainable AI | NLP | Safety-Critical Systems
+Occupational Health & Safety | Explainable AI | NLP
 
 GitHub: https://github.com/Tony-Kwofie
+LinkedIn: (add link if desired)
 
-12. License
+11. License
 This repository is intended for academic and research purposes.
-
-yaml
-Copy code
-
----
-
-## Final Step: Commit the Update
-
-```powershell
-git add README.md
-git commit -m "Update README with PhD-focused NLP and Explainable AI positioning"
-git push
