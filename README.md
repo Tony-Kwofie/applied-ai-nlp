@@ -87,55 +87,65 @@ APPLIED-AI-NLP/
 ├── nlp report.docx
 ├── .gitignore
 └── README.md
----
 
-## 7. Tools and Technologies
+7. Tools and Technologies
+
 The project was developed using the following tools and libraries:
 
-- **Programming Language:** Python  
-- **Machine Learning:** scikit-learn  
-- **Deep Learning:** TensorFlow / Keras  
-- **Natural Language Processing:** NLTK, spaCy  
-- **Data Analysis:** Pandas, NumPy  
-- **Visualisation:** Matplotlib, Seaborn  
-- **Development Environment:** Jupyter Notebook  
+Programming Language: Python
 
----
+Machine Learning: scikit-learn
 
-## 8. Academic Contribution
+Deep Learning: TensorFlow / Keras
+
+Natural Language Processing: NLTK, spaCy
+
+Data Analysis: Pandas, NumPy
+
+Visualisation: Matplotlib, Seaborn
+
+Development Environment: Jupyter Notebook
+
+8. Academic Contribution
+
 This work contributes to ongoing research in:
 
-- NLP-based safety and risk analytics  
-- Explainable Artificial Intelligence (XAI) in high-risk and regulated domains  
-- Trustworthy and transparent machine learning systems  
-- Human-in-the-loop decision support for safety management  
+NLP-based safety and risk analytics
 
-The project aligns with contemporary research themes in **Explainable AI, applied NLP, and safety-critical machine learning**.
+Explainable Artificial Intelligence (XAI) in high-risk and regulated domains
 
----
+Trustworthy and transparent machine learning systems
 
-## 9. PhD Research Extension
+Human-in-the-loop decision support for safety management
+
+The project aligns with contemporary research themes in Explainable AI, applied NLP, and safety-critical machine learning.
+
+9. PhD Research Extension
+
 Potential PhD-level research extensions include:
 
-- Post-hoc explainability methods (e.g. **LIME**, **SHAP**) for NLP models  
-- Transformer-based architectures (e.g. **BERT**, **RoBERTa**) with explanation layers  
-- Temporal modelling of injury narratives and severity trends  
-- Multi-modal learning combining text with structured safety data  
-- Deployment of explainable NLP systems in real industrial environments  
+Post-hoc explainability methods (e.g. LIME, SHAP) for NLP models
 
----
+Transformer-based architectures (e.g. BERT, RoBERTa) with explanation layers
 
-## 10. Author
-**Anthony Eddei Kwofie**  
-MSc Artificial Intelligence & Data Science  
+Temporal modelling of injury narratives and severity trends
 
-**Research Interests:**  
-Explainable AI (XAI), NLP, Safety-Critical Systems, Occupational Health & Safety  
+Multi-modal learning combining text with structured safety data
 
-- GitHub: https://github.com/Tony-Kwofie  
-- LinkedIn: *(add link if desired)*  
+Deployment of explainable NLP systems in real industrial environments
 
----
+10. Author
 
-## 11. License
-This repository is intended for **academic and research purposes only**.
+Anthony Eddei Kwofie
+MSc Artificial Intelligence & Data Science
+
+Research Interests:
+Explainable AI (XAI), NLP, Safety-Critical Systems, Occupational Health & Safety
+
+GitHub: https://github.com/Tony-Kwofie
+
+LinkedIn: (add link if desired)
+
+11. License
+
+This repository is intended for academic and research purposes only.
