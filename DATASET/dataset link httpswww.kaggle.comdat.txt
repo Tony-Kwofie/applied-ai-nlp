@@ -1,0 +1,11 @@
+dataset link: https://www.kaggle.com/datasets/krist0phersmith/osha-severe-incident-reports
+
+OSHA Severe Injury Reports (2015–2022)
+
+Source: Kaggle – OSHA Severe Injury Reports
+
+Format: CSV
+
+Description: Contains records of severe workplace injuries, including narrative descriptions of incidents, injury types (e.g., amputations, hospitalizations), employer information, and industry codes.
+
+Relevance: Provides unstructured text suitable for NLP tasks like classifying incidents by type or industry, making it ideal for building and evaluating machine learning models in occupational health and safety.
